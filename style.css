@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #ffb7d2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  color: white;
+}
+
+h2{
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+#input-todo{
+  border-radius: 80px;
+  border: none;
+  padding: 10px 30px;
+  font-size: medium;
+  width: 100%;
+}
+
+#create-todo{
+  border-radius: 80px;
+  padding: 10px 20px;
+  font-size: medium;
+  cursor: pointer;
+  color: #f174a2;
+  background-color: white;
+  border: none;
+}
+
+#create-todo:hover{
+  background-color: #ffb7d2;
+  color: white;
+
+}
+
+#create-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #f174a2;
+  padding: 1rem 5rem ;
+  margin: 0%;
+  width: 100%;
+}
+
+#to-dos-container{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 1rem 5rem ;
+  width: 100%;
+  height: 100%;
+}
+
+ li{
+  cursor: pointer;
+ }
+
