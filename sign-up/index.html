@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style-sign-up.css">
+</head>
+
+<body>
+    <div id="form-container-su">
+        <form action="submit" id="sign-up-form">
+            <h1>Crea una cuenta</h1>
+            <input type="email" placeholder="Email" name="email" id="email-input">
+            <input type="text" placeholder="Username" name="username" id="username-input">
+            <input type="date" placeholder="Select your birthday" name="birthday" id="birthday-input">
+            <input type="file" placeholder="Select a picture" name="picture" id="picture-input" accept="">
+            <input type="password" placeholder="Password" name="password" id="password-input">
+            <input type="password" placeholder="Confirm password" name="confirm" id="confirm-input">
+            <button id="form-button" type="submit">Crear cuenta</button>
+        </form>
+    </div>
+    <div id="go-to-log-in">
+        <div id="info">
+            <h1>¡Bienvenid@ de nuevo!</h1>
+            <p>Ingresa tus datos para continuar con tu lista de tareas.</p>
+            <a id="log-in" href="/log-in/">Ingresar</a>
+        </div>
+    </div>
+    
+    <script type="module" src="./sign-up.js"></script>
+</body>
+
+</html>

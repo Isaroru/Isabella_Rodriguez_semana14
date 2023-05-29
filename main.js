@@ -1,4 +1,4 @@
-import './style.css'
+import './styles.css'
 import {getTasks, addTask, editDocument} from './firebase'
 
 let tasks = [];

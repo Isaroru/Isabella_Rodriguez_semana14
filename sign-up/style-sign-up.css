@@ -1,0 +1,152 @@
+/**{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#sign-up-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+    color: #333;
+}
+
+h1 {
+	font-weight: bold;
+    font-size: 40px;
+	margin: 0;
+}
+
+p {
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+button {
+	border-radius: 50px;
+	border: 1px solid #ffb7d2;
+    background-color: #ffb7d2;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 12px 45px;
+	text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f174a2;
+}
+
+form {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+    gap: 16px;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+    border-radius: 50px;
+	padding: 12px 20px;
+	width: 100%;
+}
+
+#form-container-su {
+	position: absolute;
+	top: 0;
+    left: 50%;
+	width: 50%;
+	height: 100%;
+}
+
+#go-to-log-in {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+    background: #ffb7d2;
+        background: -webkit-linear-gradient(to right, #f174a2, #ffb7d2);
+        background: linear-gradient(to right, #f174a2, #ffb7d2);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0;
+        color: #FFFFFF;
+}
+
+#info{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+}
+
+a{
+    border-radius: 50px;
+	border: 1px solid #ffb7d2;
+    background-color: #ffb7d2;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 12px 45px;
+	text-transform: uppercase;
+    cursor: pointer;
+}
+
+#log-in{
+    background-color: transparent;
+	border-color: white;
+    border: 2pt solid;
+}
+
+#log-in:hover{
+    color: #f174a2;
+    background-color: white;
+    border-color: white;
+}
